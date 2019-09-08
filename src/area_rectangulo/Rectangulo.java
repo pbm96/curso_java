@@ -11,6 +11,7 @@ public class Rectangulo {
     }
 
     public void calcular(){
+
         this.resultado = this.base * this.altura;
 
     }
