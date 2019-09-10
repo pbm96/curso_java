@@ -3,7 +3,7 @@
  */
 package libreria;
 
-public class LLFunciones {
+public class  LLFunciones {
     private int kilos = 0, tipo_ropa = 0;
     private boolean llenado_full = false, lavado_completo = false, secado_completo = false;
 
@@ -54,6 +54,7 @@ public class LLFunciones {
 
     }
 
+
     private void Secado(){
 
         if (lavado_completo == true){
@@ -70,5 +71,13 @@ public class LLFunciones {
         if (secado_completo == true){
             System.out.println("El lavado finalizó correctamente");
         }
+    }
+
+    public int getTipo_ropa() {
+        return tipo_ropa;
+    }
+
+    public void setTipo_ropa(int tipo_ropa) {
+        this.tipo_ropa = tipo_ropa;
     }
 }

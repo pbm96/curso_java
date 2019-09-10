@@ -14,6 +14,7 @@ public class Lavadora {
         int tipo_ropa = entrada.nextInt();
 
         LLFunciones valores = new LLFunciones(kilos, tipo_ropa);
+        valores.setTipo_ropa(4);
         valores.lavar_ropa();
 
 
